@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-[url('/img/bg-image.svg')] bg-cover bg-no-repeat bg-center md:h-screen">
+
+    <header>
+        <div class="flex justify-start px-8 py-4 md:px-16 md:py-5 lg:px-16 lg:py-5">
+            <img src="/img/contact-form-icon.svg" alt="">
+        </div>
+    </header>
+    <section>
+        <div class="max-w-2xl mx-auto">
+            <h1 class="text-7xl font-bold text-white text-center">
+                Interested in our business pricing?
+            </h1>
+            <h2 class="text-center md:text-3xl xl:text-3xl text-2xl mt-5 text-white md:mt-4 xl:mt-4">
+                Fill out the form to view details and we’ll contact you as soon as possible.
+            </h2>
+        </div>
+    </section>
+    <main class="pb-14">
+        <form class="p-10 rounded-3xl max-w-3xl mx-auto bg-cyan-700 bg-opacity-50 mt-16 md:mt-30 lg:md-30 xl:mt-50" action="">
+            <fieldset>
+                <div class="md:grid grid-cols-2 gap-8 lg:grid grid-cols-2 gap-8 xl:grid grid-cols-2 gap-8">
+                    <div class="flex flex-col">
+                        <label class="text-white" for="">Name</label>
+                        <input class="rounded-lg p-4" placeholder="Ethan Johnson" type="text">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-white" for="">Company Email</label>
+                        <input class="rounded-lg p-4" placeholder="ethan@johnson.com" type="text">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-white" for="">Company Size</label>
+                        <input class="rounded-lg p-4 placeholder-slate-950 " placeholder="50-100 employees" type="text">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-white" for="">Subjet</label>
+                        <input class="rounded-lg p-4 placeholder-slate-950 " placeholder="Building Landing Pages" type="text">
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 gap-2">
+                    <label class="text-white mt-4" for="">Message</label>
+                    <textarea class="rounded-lg p-4 py-16 placeholder-slate-950 " placeholder="50-100 employees" name="" id=""></textarea>
+                </div>
+                <button class=" font-bold text-lg w-full rounded-lg py-4 text-blue-700 bg-white mt-6">Contact Sales</button>
+            </fieldset>
+        </form>
+    </main>
+    
+</body>
+
+</html>
